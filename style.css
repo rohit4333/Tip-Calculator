@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+:root{
+    --primary-color: rgb(17, 185, 228);
+    --btn-color: rgb(4, 86, 100);
+    --btn-sec-color: rgb(46, 210, 231);
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgba(19, 17, 17, 0.959);
+    color: var(--primary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    border: 5px solid var(--primary-color);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+
+
+input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 282px;
+    margin: 10px 0  10px 0;
+    background-color: white;
+    outline: none;
+    font-weight: bold;
+    border: 5px solid var(--primary-color);
+}
+
+select{
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 312px;
+    margin: 10px 0  10px 0;
+    font-size: 15px;
+    background-color: white;
+    border: 5px solid var(--primary-color);
+    color: rgba(19, 17, 17, 0.959);
+    font-weight: bold;
+}
+
+
+label{
+    color: rgb(8, 223, 187);
+    font-size: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+button{
+    background-color: var(--btn-color);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover{
+    /* border: 1px solid var(--primary-color); */
+    background-color: var(--primary-color);
+}
+
+#result{
+    color: rgb(243, 247, 16);
+    max-width: 282px;
+}
